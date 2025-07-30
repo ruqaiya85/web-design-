@@ -1,0 +1,182 @@
+<!-- 
+MiniDrive.in or MiniDrive.com
+Website Name:MiniDrive
+
+Description: MiniDrive is an e-commerce platform for high-quality toy cars replicating real car models for collectors and enthusiasts. Users can browse, like, and purchase miniature cars easily with a personalized, engaging experience
+
+
+My Three Chosen Features:
+
+1️⃣ Login/Signup Feature (User Authentication)
+
+Allows users to create an account and log in securely.
+
+Enables a personalized experience for each user, saving preferences and user history.
+
+
+
+2️⃣ Product Purchase
+
+Users can browse products/services and add them to a cart.
+
+Supports online payments using payment gateways (UPI, debit/credit cards, etc.).
+
+
+
+
+
+3️⃣ Like Button on Posts/Products
+
+Users can like posts or products they find interesting.
+
+Increases user engagement and interaction on the platform.
+
+
+High-Fidelity Wireframe of Mini Drive (A website where Real car meets mini sizes of its own) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MiniDrive</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #111;
+    }
+
+    header {
+      padding: 20px 10px 10px;
+    }
+
+    .menu-icon {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .title {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .search-bar {
+      width: 60%;
+      padding: 10px;
+      border-radius: 25px;
+      border: 1px solid #ccc;
+      margin-bottom: 30px;
+    }
+
+    .main-text {
+      font-size: 18px;
+      margin: 10px 0;
+      font-weight: 500;
+    }
+
+    .carousel {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .arrow {
+      font-size: 24px;
+      cursor: pointer;
+      padding: 0 20px;
+    }
+
+    .product-image {
+      width: 300px;
+      height: 180px;
+      background-color: #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      color: #555;
+      margin: 0 10px;
+    }
+
+    .product-name {
+      margin-top: 20px;
+      background-color: #ccc;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 25px;
+      margin-bottom: 10px;
+    }
+
+    .product-description {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .button {
+      background-color: #ccc;
+      padding: 10px 20px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    @media screen and (max-width: 600px) {
+      .search-bar {
+        width: 80%;
+      }
+
+      .carousel {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu-icon">&#9776;</div>
+
+  <header>
+    <h1 class="title">MINIDRIVE</h1>
+    <p class="subtitle">REAL CARS, MINI SIZES</p>
+    <input class="search-bar" type="text" placeholder="SEARCH" />
+  </header>
+
+  <p class="main-text">BRING ICONIC CARS HOME IN MINIATURE</p>
+  <p class="main-text">EXPLORE TOY CARS</p>
+
+  <div class="carousel">
+    <div class="arrow">&lt;</div>
+    <div class="product-image">IMAGE</div>
+    <div class="arrow">&gt;</div>
+  </div>
+
+  <div class="product-name">PRODUCT NAME</div>
+  <p class="product-description">A BRIEF DESCRIPTION OF PRODUCT</p>
+
+  <div class="buttons">
+    <div class="button">WISHLIST</div>
+    <div class="button">MOVE TO CART</div>
+  </div>
+
+</body>
+</html>
